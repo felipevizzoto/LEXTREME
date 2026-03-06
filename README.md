@@ -11,6 +11,11 @@ still very challenging and leaves ample room for improvement. To make it easy fo
 we release LEXTREME on huggingface together with all the code required to evaluate models and a public Weights and
 Biases project with all the runs.
 
+
+## API-key-only vendor benchmarking (RFP)
+
+If you need to evaluate black-box vendor models with only API keys (no local fine-tuning access), see `documentations/API_KEY_EVALUATION.md` for a practical adapter-based approach that reuses this repository's scoring utilities.
+
 ## Leaderboard
 
 ### LEXTREME Scores
